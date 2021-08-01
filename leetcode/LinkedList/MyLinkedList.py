@@ -99,8 +99,8 @@ class MyLinkedList:
             aux_node = self.head
             elements = ''  
             while aux_node:
-                lis += str(itr.val) + '-->'
-                itr = itr.next
+                element += str(aux_node.val) + '-->'
+                aux_node = aux_node.next
             print(lis)
 
 
